@@ -1,0 +1,224 @@
+#box1 {
+    border: 3px solid black;
+    height: 1260px;
+}
+
+body {
+    background-color: wheat;
+
+}
+
+.heading {
+    text-align: center;
+    color: blue;
+
+}
+
+.heading h1:hover {
+    color: red;
+}
+
+.navgation {
+    background-color: blue;
+}
+
+.navgation li {
+    display: inline-block;
+
+}
+
+.navgation li a {
+
+    display: block;
+    padding: 10px 15px;
+    color: black;
+}
+
+.navgation li a:hover {
+    color: white;
+}
+
+.font {
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+}
+
+.zanu {
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+}
+
+.para img {
+    float: left;
+    height: 100px;
+    width: 150px;
+    position: relative;
+    bottom: 15px;
+    animation-name: sample;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes sample {
+    from {
+        border-radius: 0%;
+    }
+
+    to {
+        border-radius: 50%;
+    }
+}
+
+.para li {
+    display: inline-block;
+}
+
+.para li a {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.para li a:hover {
+    color: blue;
+}
+
+.para i {
+    position: relative;
+    left: 475px;
+    bottom: 43px;
+}
+
+.para i:hover {
+    color: blue;
+}
+
+.rai i {
+    position: relative;
+    left: 320px;
+    bottom: 60px;
+}
+
+.rai i:hover {
+    color: blue;
+}
+
+.offer img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 650px;
+}
+
+.offer h1 {
+    position: relative;
+    bottom: 300px;
+    margin: 5px;
+}
+
+.offer p {
+    position: relative;
+    bottom: 300px;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.niru {
+    border: 2px solid black;
+    height: 300px;
+    position: relative;
+    bottom: 150px;
+    background-color: purple;
+
+}
+
+.niru:hover {
+    color: greenyellow;
+}
+
+
+
+.niru p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 25px;
+}
+
+
+.niru img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    clip-path: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    shape-margin: 10px;
+
+}
+
+.last {
+    background-color: lightgreen;
+    position: relative;
+    bottom: 165px;
+    height: 220px;
+}
+
+.footer {
+    background-color: plum;
+    width: 160px;
+    height: 50px;
+    padding: 7px 0px 0px 0px;
+    transition-property: background width;
+    transition-duration: 3s;
+}
+
+.footer:hover {
+    width: 250px;
+    background-color: lawngreen;
+}
+
+.icon {
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 50px;
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    background-color: blue;
+}
+
+.gyanu {
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    background-color: palevioletred;
+}
+
+.fun {
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 50px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    background-color: white;
+}
